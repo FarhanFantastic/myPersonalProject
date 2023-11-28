@@ -110,12 +110,7 @@ nav {
   }
   /********* Footer section CSS End **********/
 
-  table, thead, tbody{
-    border: 2px solid #0174b5;
-    font-family: tahoma;
-    font-weight: bolder;
-  }
-
+ 
     </style>
 </head>
 <body>
@@ -196,49 +191,56 @@ nav {
             </div>
 
                 <br>
-            <div class="container-fluid mb-3">
-                <table class="table">
-                    <thead class="table-primary">
-                        <tr>
-                            <td>Std. NO.</td>
-                            <td>Admission NO.</td>
-                            <td>Name</td>
-                            <td>Class</td>
-                            <td>Gender</td>
-                            <td>Status</td>
-                        </tr>
-
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>1</td>
-                            <td>ALTSTD0001</td>
-                            <td>Ilyas Ibrahim Mohamud</td>
-                            <td>OFFC1</td>
-                            <td>Male</td>
-                            <td>Active</td>
-                        </tr>
-                        <tr>
-                            <td>2</td>
-                            <td>ALTSTD0001</td>
-                            <td>Abdikani Mohamud Hussein</td>
-                            <td>OFFC1</td>
-                            <td>Male</td>
-                            <td>Active</td>
-                        </tr>
-                        <tr>
-                            <td>3</td>
-                            <td>ALTSTD0001</td>
-                            <td>A’isha Farah Geddi</td>
-                            <td>OFFC1</td>
-                            <td>Female</td>
-                            <td>Active</td>
-                        </tr>
-                        
-                    </tbody>
-
-                </table>                   
-            </div>
+                <div class="container min-vh-10 d-flex  align-items-center">
+                    <div class="col-4 " style="background-color: white; margin-top: 10px; margin-bottom: 30px; border: solid #0174b5; border-width: 1px; border-radius: 20px;">
+                        <form action="" style="margin: 50px; font-family: tahoma; color: #0174b5; font-weight: bold;">
+                            
+                            <h2 style="text-align: center;">New Student</h2>
+                            <div class="mb-3 mt-3">
+                                <input type="number" class="form-control" id="StdNO" placeholder="Std. NO." name="stdNO">
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="AdmissionNO" placeholder="Admission NO." name="AdmissionNO">
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" id="name" placeholder="Name" name="name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="class">Class </label> 
+                                <select name="class" id="class"> 
+                                    <option value="OFFC1">OFFC1</option> 
+                                    <option value="OFFC2">OFFC2</option> 
+                                    <option value="OFFC3">OFFC3</option> 
+                                    <option value="ONLC1">ONLC1</option>
+                                    <option value="ONLC2">ONLC2</option>
+                                    <option value="ONLC3">ONLC3</option> 
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="gender">Gender </label> 
+                                <select name="gender" id="gender"> 
+                                    <option value="male">Male</option> 
+                                    <option value="female">Female</option> 
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="status">Status </label> 
+                                <select name="status" id="status"> 
+                                    <option value="active">Active</option> 
+                                    <option value="blocked">Blocked</option> 
+                                </select>
+                            </div>
+                            
+                            
+                            <div class="mb-3 mt-3" style="text-align: center;">
+                                <a href="Student.html" class="btn btn-primary" style="width: 300px; border: solid #0174b5; border-radius: 30px; font-weight: bold;">Add</a>
+                                
+                            
+                            </div>
+                          </form>
+                      
+                    </div>
+                </div>
         </div>
 
 
