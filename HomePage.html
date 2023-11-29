@@ -8,127 +8,11 @@
     <link rel="stylesheet" href="Style.css">
     <title>Home Page</title>
     <style>
-       * {
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;
-      }
-    html, body {
-      font-family Roboto, sans-serif, arial;
-      font-size: 16px;
-      color: #0174b5;
-      }
-    .container {
-      width: 1300px;
-      margin: 0px auto;
-      }
-    .main-section {
-      width: 100%;
-      float: left;
-      padding: 70px 0px 70px 0px;
-      }
-    .heading {
-      font-size: 28px;
-      font-weight: 500;
-      border-bottom: 1px solid #46b7c1;
-      margin-bottom: 20px;
-      color: #0174b5;
-      }
-  /********* Common CSS End **********/
-
-  /********* Header HTML CSS Starts **********/
-    .header {
-	    background: #0174b5;
-	    padding: 1px;
-  
-      }
-    .header b {
-	    background: #fff;
-	    color: #0174b5;
-	    padding: 5px;
-	    font-size: 20px;
-      width: 80%;
-      }
-    .header marquee {
-      background-color: white;
-	    font-size:20px;
-	    color: #0174b5;
-	    width: 80%;
-      }
-/********* Header HTML CSS End **********/
-
-/********* Design Logo and Menu section CSS Starts **********/
-    .logo {
-	    height:100px;
-      }
-/*Menu Section Menu Section*/
-    nav {
-	    float:right;
-	    padding:25px 0px;
-      width: 100%;
-      float: left;
-      text-align: center;
-      margin-top: 10px;
-      }
-    nav a {
-	    color: #0174b5;
-	    text-decoration: none;
-      font-size: 20px;
-      padding:2px 10px;
-      font-weight: 100;
-      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
-      }
-/********* Design Logo and Menu section CSS End **********/
-
-/********* Slider CSS Starts **********/
-    .slider img {
-      width: 100%;
-     }
-  /********* Slider CSS End **********/
-
-
-  /********* Gallery section CSS Starts **********/
-  .gallery img {
-    width: 24%;
-  }
-  /********* Gallery section CSS End **********/
-
-
-
-
-  .footer {
-    background-color: #0174b5;
-    color: white;
-    padding: 20px 0px;
-    width: 100%;
-    float: left;
-  }
-  .footer-logo {
-    width: 70%;
-  }
-  .footer-sect {
-    width: 100%;
-    float: left;
-    text-align: center;
-    margin-top: 20px;
-  }
-  .footer-sect a {
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    padding:2px 10px;
-    font-weight: 100;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin-left: 10px;
-
-  }
-  /********* Footer section CSS End **********/
-
+       
     </style>
 </head>
 <body>
-  <div class="header">
+  <div class="header fixed-top">
     <div class="container">
       <img src="Images/Al-Ta'limAcademy-Logo-CONFIRMED2.png" class="logo">
        
@@ -151,32 +35,25 @@
 <!------ Header HTML Ends ------->
 
 
-<!------ Design Logo And Main Menu Section HTML Startss ------->
-<div class="container">
-<!-------------------------LOGO SECTION--------------------------->
-
+<div class="container fixed-top" style="margin-top: 85px;">
 <!-------------------------MENU SECTION-------------------------->
 <nav>
-  <a href="#">Home</a>
-  <a href="#">About us</a>
-  <a href="#">Events</a>
-  <a href="#">Gallery</a>
-  <a href="#">Notice Board</a>
-  <a href="#">Blogs</a>
-  <a href="#">Contact us</a>
+  <a href="HomePage.html">Home</a>
+  <a href="AboutUs.html">About us</a>
+  <a href="Events.html">Events</a>
+  <a href="Gallery.html">Gallery</a>
+  <a href="Courses.html"> Courses</a>
+  <a href="NoticeBoard.html">Notice Board</a>
+  <a href="ContactUs.html">Contact us</a>
   <a href="Login.html" class="btn btn-primary" style="margin-left: 100px; width: 100px; border-radius: 20px; text-align: center; font-weight: bold;">Login</a>
 </nav>
 </div>
-<!------ Design Logo And Main Menu Section HTML End ------->
+<!------ Main Menu Section HTML End ------->
 
-
-<!------ Slider HTML Starts ------->
 <div class="slider">
-<img src="Images/Online Cover JARAN.png">
+  <img src="Images/Online Cover JARAN.png">
 </div>
 
-
- <!--------- Gallery HTML Starts -------->
  <div class="main-section gallery" style="background:white">
   <div class="container ">
     <h2 class="heading">Our School Gallery</h2>
@@ -194,39 +71,51 @@
 <!--------- Gallery HTML End --------> 
 
 
-
-
-
-    
-       <!--------- Footer HTML Starts -------->
+<!--------- Footer HTML Starts -------->
 <div class="footer">
     <div class="container">
       <div class="footer-sect">
-        <img class="footer-logo" src="Images/Online Cover JARAN.png">
+        <img class="footer-logo" src="Images/Online Cover JARAN.png" style="background-color: white; border-radius: 100px;">
       </div>
       <div class="footer-sect">
-        <a href="#"> Home</a>
-        <a href="#"> About us</a>
-        <a href="#"> Tutorial</a>
-        <a href="#"> Event</a>
-        <a href="#"> Gallery</a>
-        <a href="#"> Press Release</a>
-        <a href="#"> Courses</a>
-        <a href="#"> Contact Us</a>
+        <a href="HomePage.html">Home</a>
+        <a href="AboutUs.html">About us</a>
+        <a href="Events.html">Events</a>
+        <a href="Gallery.html">Gallery</a>
+        <a href="Courses.html"> Courses</a>
+        <a href="NoticeBoard.html">Notice Board</a>
+        <a href="ContactUs.html">Contact us</a>
       </div>
+   
       <div class="footer-sect">
-        <img src="Images/Youtube Symbol.png" style="width: 5%;">
-        <img src="Images/Facebook Symbol.png" style="width: 5%;">
-        <img src="Images/Instgram Symbol.png" style="width: 5%;">
-        <img src="Images/LinkIN Symbol.png" style="width: 5%;">
-        <h4>Al-Ta'lim Academy for Science, Languages and Technology</h4>
-        <br>
-        <img src="Images/WhatsApp Symbol.png" style="width: 5%;">
-        <h4>+252 612 015826  /  +252 615 622909  /  +252 618 473482</h4>
+        <div class="row">
+          <div class="col-sm-4" style="border-right: solid white;">
+            <p><h4><u><b>Location</b></u></h4></p>
+            <img src="Images/Home Symbol.png" style="width: 10%;;" alt="ICON"> <br> Dharkeynley<br>
+            <img src="Images/Location Symbol.png" style="width: 10%;" alt="ICON"><br> Mogadishu-Somalia <br>
+          </div>
+
+          <div class="col-sm-4" style="border-right: solid white;">
+            <p><h4><u><b>Contacts</b></u></h4></p>
+            <p>
+              <img src="Images/Call Symbol.png" style="width: 10%;" alt="ICON"><br> +252 612 015826 <br>  +252 615 622909 <br>  +252 618 473482 <br>
+              <img src="Images/Gmail Symbol.png" style="width: 10%;" alt="ICON"><br> <a href="" style="border: none; margin-left: 0px; padding-left: 0px;  font-family: Consola; font-size: 15px;">altacliimacademy@gmail.com</a> 
+            </p>  
+          </div>
+
+          <div class="col-sm-4">
+            <p><h4><u><b>Follow us on Social Media</b></u></h4></p>
+            <a href="" style="border: none; margin-left: 0px; padding-left: 0px;"><img src="Images/Youtube Symbol.png" style="width: 10%;"></a>
+            <a href="" style="border: none; margin-left: 0px; padding-left: 0px"><img src="Images/Facebook Symbol.png" style="width: 10%;"></a>
+            <a href="" style="border: none; margin-left: 0px; padding-left: 0px"><img src="Images/Instgram Symbol.png" style="width: 10%;"></a><br>
+            <a href="" style="border: none; margin-left: 0px; padding-left: 0px"><img src="Images/LinkIN Symbol.png" style="width: 10%;"></a>
+            <a href="" style="border: none; margin-left: 0px; padding-left: 0px"><img src="Images/WhatsApp Symbol.png" style="width: 10%;"></a>    
+          </div>
+
+        </div>
       </div>
     </div>
   </div>
-  <!--------- Footer HTML End --------> 
-      
+<!--------- Footer HTML End --------> 
 </body>
 </html>
