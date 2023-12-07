@@ -103,6 +103,85 @@ padding: 5px;
 }
 /********* Gallery section CSS End **********/
 
+
+/********* Campus, Events and Notice Board section CSS Starts **********/
+.noticeboard {
+  width: 48%;
+  margin-right: 1%;
+  float: left;
+  background-color: #0174b5;
+  padding: 10px;
+}
+.noticeboard .heading {
+  border-bottom: 1px solid #0174b5;
+  padding: 5px;
+  color: #0174b5;
+  background: white;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  font-weight: bolder;
+}
+.noticeboard ul li {
+  margin-bottom: 20px;
+  width: 100%;
+  float: left;
+  list-style: none;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+
+}
+.noticeboard-date {
+  background: white;
+  float: left;
+  text-align: center;
+  font-size: 14px;
+  color: #0174b5;
+  padding: 8px 12px;
+  margin-right: 10px;
+}
+
+/********* Campus, Events and Notice Board section CSS End **********/
+
+
+/********** School Info and Admin Info CSS Starts **********/  
+.info p {
+  width: 100%;
+  float: left;
+  font-size: 16px;
+  background-color: #0174b5;
+  color: white;
+  padding: 30px;
+  font-family: Comic Sans MS;
+  border-radius: 40px;
+
+  }
+  .info img {
+  width: 30%;
+  border-radius: 200px;
+  
+  }
+  .info b {
+  min-width: 115px;
+  float: left;
+  
+
+ }
+  .info h2 {
+  font-size: 23px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  text-align: center;
+ }
+/********** School Info and Admin Info CSS Ends **********/
+
+
+
+
+
+
+
 .footer {
 background-color: #0174b5;
 color: white;
