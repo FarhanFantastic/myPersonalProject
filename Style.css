@@ -97,9 +97,10 @@ width: 100%;
 /********* Slider CSS End **********/
 
 .gallery img {
-width: 24%;
-border-radius: 20px;
-padding: 5px;
+  background-color: rgb(12, 115, 218);
+  width: 24%;
+  border-radius: 20px;
+  padding: 2px;
 }
 /********* Gallery section CSS End **********/
 
